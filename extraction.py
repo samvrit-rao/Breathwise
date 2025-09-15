@@ -7,7 +7,7 @@ p = pd.read_csv('/Users/raosamvr/Downloads/mimic-iii-clinical-database-1.4/PRESC
 i = pd.read_csv('/Users/raosamvr/Downloads/pca/second_iter.csv')
 
 main = p[p['SUBJECT_ID'].isin(i['SUBJECT_ID'].tolist())]
-openai.api_key = "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"
+openai.api_key = "SECRET-KEY"
 
 
 uno = i['SUBJECT_ID'].tolist()
